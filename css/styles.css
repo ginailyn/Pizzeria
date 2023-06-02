@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { margin: 0;
+padding: 0;}
+
+
+html{
+  width: 1024;
+}
+
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #E5E5E5;    
+}
+
+
+.topheader{
+    background-color: black;
+    padding-left: 20px;
+} 
+
+.topnav,.botton_nav{
+  display: flex;
+  justify-content: space-between;
+} 
+
+  
+.colorblanco{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+  }
+
+.menu {
+    display: flex;
+    list-style: none;
+    /*reseteamos las propiedades margin y padding a 0, porque a esos elementos los
+     navegadores le añaden por defecto unos margenes y paddings que no deseo */
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+ .menu li {
+    /*padding arriba y abajo 0 pix y derecha e izq 15px de separacion entre cada elemento*/
+    padding: 0 15px;
+    line-height: 100px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
+/*   Main */
+main {
+  display: flex;
+  background-color: #E5E5E5;
+  padding: 10px 19px;
+  margin: 10px;
+  justify-content: space-evenly;
+
+}
+.delivery{
+  background-image: url("../img/delivery.jpg");
+  height: 350px;
+  width: 490px;
+  background-size: cover;
+  top: 20px;
+  
+}
+
+.podioPizzas{
+  display: flex;
+  height: 350px;
+  width: 490px;
+  background-size: contain;
+  background-color:#FFFFFF;
+  
+  flex-direction: column;
+  background-size: cover;
+ }
+ 
+.podioPizzas h2{
+  text-align: center;
+  padding:26px;
+  color:red;
+}
+.podioPizzas h3{
+  text-align:left;
+  padding-left: 119px;
+  font-size: 20px;
+  font-weight:700;
+  padding-top: 10px;
+}
+ 
+.listaPizzas{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-left: 30px;
+
+}
+
+.listaPizzas li{
+  font-size: 20px;
+  font-weight:700;
+  margin-left: 50px;
+
+}
+
+.delivery h2 {
+  color: red;
+  padding-left: 30px;
+  text-align: left;
+  padding-top: 20px;
+
+ }
+ 
+ span{
+   color: white;
+ }
+ 
+
+/* Footer*/
+
+.menuf{
+   display: flex;
+   flex-direction: column;
+   padding: 15px;  
+   font-size: 16px;
+   font-weight: 400px;
+}
+
+.menuf li{
+  display: flex;
+  padding: 6px;
+}
+.botton_header{
+  background-color: black;  
+  height: 150px;
+}
+
+.logof {
+  padding-right: 30px;
+}
